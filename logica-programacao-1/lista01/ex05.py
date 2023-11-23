@@ -8,9 +8,9 @@ def media_aproveitamento(lista):
 
     if media >= 9.0:
         conceito = "A"
-    elif media < 9 and media >= 7.5:
+    elif 9 > media >= 7.5:
         conceito = "B"
-    elif media < 7.5 and media >= 6:
+    elif 7.5 > media >= 6:
         conceito = "C"
     else:
         conceito = "D"

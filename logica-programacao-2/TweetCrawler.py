@@ -93,6 +93,7 @@ def main():
     print("--------------------------------------")
     print("-SISTEMA DE BUSCA EM DADOS DO TWITTER-")
     modeloMenu = 0
+    salvo = 0
 
     while True:
         escolha = menu(modeloMenu)
@@ -146,7 +147,7 @@ def main():
             print(f'\nSua consulta por tweets referentes a "{consulta}" foi salva no arquivo "tweets_{consulta}.json".\n')
             salvo = 0
             modeloMenu = 0
-        elif total == 0:
+        elif not total:
             print(f'\nSua consulta por tweets referentes a "{consulta}" não encontrou resultados na base de dados disponível.\n')
             modeloMenu = 0
 

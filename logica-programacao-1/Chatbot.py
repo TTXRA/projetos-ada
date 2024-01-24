@@ -211,7 +211,7 @@ if hora >= 17 or hora <= 3:
         print(f"Forma de Pagamento: {formaPagamento}")
 
     # Mensagem de agradecimento
-    print(f"\n{saudacao}, {nome}. Nós da Pizzaria Delícia agradecemos o seu contato!")
+    print(f"\n{saudacao}, {nome}. A Pizzaria Delícia agradecemos o seu contato!")
 
 else:
     # Mensagem de fora do horário de funcionamento
